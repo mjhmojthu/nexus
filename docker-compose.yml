@@ -2,23 +2,7 @@ services:
   nexus-1:
     image: mjhmojthu/nexus-network:latest
     container_name: nexus-1
-    command: start --node-id 6845599
-    restart: unless-stopped
-    tty: true
-    stdin_open: true
-
-  nexus-2:
-    image: mjhmojthu/nexus-network:latest
-    container_name: nexus-2
-    command: start --node-id 6845662
-    restart: unless-stopped
-    tty: true
-    stdin_open: true
-
-  nexus-3:
-    image: mjhmojthu/nexus-network:latest
-    container_name: nexus-3
-    command: start --node-id 7354168
+    command: start --node-id 
     restart: unless-stopped
     tty: true
     stdin_open: true
